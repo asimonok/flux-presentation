@@ -4,7 +4,7 @@ This is repository for sharing Flux presentation.
 
 [Link on demo TODO app](https://asimonok.github.io/flux-presentation/build/)
 
-###For running project yourself:
+### For running project yourself:
 
 Install packages
 ```
