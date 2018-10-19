@@ -1,0 +1,20 @@
+{
+  "name": "flux-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.2.2",
+    "@material-ui/icons": "^3.0.1",
+    "file-saver": "^2.0.0-rc.3",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-icons": "^3.1.0",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "PORT=3030 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

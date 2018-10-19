@@ -1,0 +1,64 @@
+.addTodo {
+  border: 1px solid var(--light-brand-color);
+  display: flex;
+}
+
+.addTodoField {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  font-size: 2rem;
+  flex: auto;
+  font-weight: 100;
+  padding: 0.25em;
+}
+
+.addTodoButton {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.todos {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.todo {
+  border: 1px solid var(--light-brand-color);
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: var(--text-color);
+  margin: 0.5em 0;
+  padding: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  transition: background-color .3s;
+}
+
+.todo:hover {
+  background-color: var(--background-color);
+}
+
+.removeButton {
+  background-color: var(--brand-color);
+  color: #ffffff;
+  border: none;
+  box-shadow: none;
+  font-size: 1rem;
+  padding: 0.25em;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
